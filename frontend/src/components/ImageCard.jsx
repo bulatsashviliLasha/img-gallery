@@ -12,7 +12,7 @@ const ImageCard = ({ image, deleteImage }) => {
       <Card.Body>
         <Card.Title>{image.title.toUpperCase()}</Card.Title>
         <Card.Text>{image?.description || image?.alt_description}</Card.Text>
-        <Button onClick={() => deleteImage(image.id)} variant="primary">
+        <Button onClick={() => deleteImage(image.id)} variant="danger">
           Delete
         </Button>
       </Card.Body>
