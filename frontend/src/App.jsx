@@ -7,6 +7,7 @@ import ImageCard from './components/ImageCard.jsx';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Welcome from './components/Welcome.jsx';
 
 const UNSPLASH_KEY = import.meta.env.VITE_APP_UNSPLASH_KEY;
 
@@ -38,13 +39,17 @@ const App = () => {
       <Header title="Images Gallery" />
       <Search word={word} setWord={setWord} handleSubmit={handleSearchSubmit} />
       <Container className="mt-4">
-        <Row xs={1} md={2} lg={3}>
-          {images.map((item, index) => (
-            <Col key={index} className="pb-3">
-              <ImageCard image={item} deleteImage={handleDeleteImage} />
-            </Col>
-          ))}
-        </Row>
+        {images.length ? (
+          <Row xs={1} md={2} lg={3}>
+            {images.map((item, index) => (
+              <Col key={index} className="pb-3">
+                <ImageCard image={item} deleteImage={handleDeleteImage} />
+              </Col>
+            ))}
+          </Row>
+        ) : (
+          <Welcome />
+        )}
       </Container>
     </div>
   );
