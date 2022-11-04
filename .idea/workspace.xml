@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="dockerfile for the frontend service">
-      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <workItem from="1667463060925" duration="5585000" />
       <workItem from="1667476140226" duration="1409000" />
       <workItem from="1667510624105" duration="10428000" />
-      <workItem from="1667548198355" duration="5273000" />
+      <workItem from="1667548198355" duration="7541000" />
     </task>
     <task id="LOCAL-00001" summary="initial header component">
       <created>1667322005277</created>
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667548276753</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="dockerfile for the frontend service">
+      <created>1667554470192</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667554470192</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
