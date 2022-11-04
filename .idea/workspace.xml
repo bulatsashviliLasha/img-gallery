@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="change delete button background">
+    <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="enabled pyling and black code formatter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.externalTools",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,7 +74,7 @@
       <workItem from="1667338047752" duration="5493000" />
       <workItem from="1667463060925" duration="5585000" />
       <workItem from="1667476140226" duration="1409000" />
-      <workItem from="1667510624105" duration="1657000" />
+      <workItem from="1667510624105" duration="10017000" />
     </task>
     <task id="LOCAL-00001" summary="initial header component">
       <created>1667322005277</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667504490107</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="enabled pyling and black code formatter">
+      <created>1667512524323</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667512524323</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +205,7 @@
     <MESSAGE value="change delete button background" />
     <MESSAGE value="added request to the unsplash api" />
     <MESSAGE value="enable debug mode in flask" />
-    <option name="LAST_COMMIT_MESSAGE" value="enable debug mode in flask" />
+    <MESSAGE value="enabled pyling and black code formatter" />
+    <option name="LAST_COMMIT_MESSAGE" value="enabled pyling and black code formatter" />
   </component>
 </project>
