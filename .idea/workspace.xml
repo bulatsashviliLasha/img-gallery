@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="initial version of the docker-compose">
+    <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="docker-compose for full app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
@@ -75,7 +79,11 @@
       <workItem from="1667463060925" duration="5585000" />
       <workItem from="1667476140226" duration="1409000" />
       <workItem from="1667510624105" duration="10428000" />
-      <workItem from="1667548198355" duration="13923000" />
+      <workItem from="1667548198355" duration="14234000" />
+      <workItem from="1667643872288" duration="667000" />
+      <workItem from="1667646060252" duration="67000" />
+      <workItem from="1667646194004" duration="3895000" />
+      <workItem from="1667660597271" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="initial header component">
       <created>1667322005277</created>
@@ -203,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667557631369</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="docker-compose for full app">
+      <created>1667600881804</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667600881804</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +254,7 @@
     <MESSAGE value="Update README.md" />
     <MESSAGE value="dockerfile for the frontend service" />
     <MESSAGE value="initial version of the docker-compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial version of the docker-compose" />
+    <MESSAGE value="docker-compose for full app" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker-compose for full app" />
   </component>
 </project>

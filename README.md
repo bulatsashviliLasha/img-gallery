@@ -6,8 +6,7 @@ alternative method to run container [Any Place]
 # docker run -p 5050:5050 -d images-gallery-api
 
 run both containers together
-# docker-compose up
-
+# docker-compose up -d
 
 
 docker build . -t images-gallery-frontend
