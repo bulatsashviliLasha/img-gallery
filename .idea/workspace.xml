@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="docker-compose for full app">
+    <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="connection api - mongo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.env.local" beforeDir="false" afterPath="$PROJECT_DIR$/api/.env.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/api/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +78,8 @@
       <workItem from="1667643872288" duration="667000" />
       <workItem from="1667646060252" duration="67000" />
       <workItem from="1667646194004" duration="3895000" />
-      <workItem from="1667660597271" duration="655000" />
+      <workItem from="1667660597271" duration="965000" />
+      <workItem from="1667662850882" duration="1964000" />
     </task>
     <task id="LOCAL-00001" summary="initial header component">
       <created>1667322005277</created>
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667600881804</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="connection api - mongo">
+      <created>1667662655081</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667662655081</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +258,7 @@
     <MESSAGE value="dockerfile for the frontend service" />
     <MESSAGE value="initial version of the docker-compose" />
     <MESSAGE value="docker-compose for full app" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker-compose for full app" />
+    <MESSAGE value="connection api - mongo" />
+    <option name="LAST_COMMIT_MESSAGE" value="connection api - mongo" />
   </component>
 </project>
