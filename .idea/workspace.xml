@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="connection api - mongo">
+    <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="add axios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ImageCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ImageCard.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1667660597271" duration="965000" />
       <workItem from="1667662850882" duration="3391000" />
       <workItem from="1667753513114" duration="935000" />
-      <workItem from="1667759057411" duration="283000" />
+      <workItem from="1667759057411" duration="4573000" />
     </task>
     <task id="LOCAL-00001" summary="initial header component">
       <created>1667322005277</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667665162215</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add axios">
+      <created>1667759718126</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667759718126</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +277,7 @@
     <MESSAGE value="docker-compose for full app" />
     <MESSAGE value="connection api - mongo" />
     <MESSAGE value="images endpoint with get and post method" />
-    <option name="LAST_COMMIT_MESSAGE" value="images endpoint with get and post method" />
+    <MESSAGE value="add axios" />
+    <option name="LAST_COMMIT_MESSAGE" value="add axios" />
   </component>
 </project>
