@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cb1bd4fc-aa9f-419a-ab1a-74793b13bf06" name="Changes" comment="connection api - mongo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,9 @@
       <workItem from="1667646060252" duration="67000" />
       <workItem from="1667646194004" duration="3895000" />
       <workItem from="1667660597271" duration="965000" />
-      <workItem from="1667662850882" duration="1964000" />
+      <workItem from="1667662850882" duration="3391000" />
+      <workItem from="1667753513114" duration="935000" />
+      <workItem from="1667759057411" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="initial header component">
       <created>1667322005277</created>
@@ -221,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667662655081</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="images endpoint with get and post method">
+      <created>1667665162215</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1667665162215</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +270,7 @@
     <MESSAGE value="initial version of the docker-compose" />
     <MESSAGE value="docker-compose for full app" />
     <MESSAGE value="connection api - mongo" />
-    <option name="LAST_COMMIT_MESSAGE" value="connection api - mongo" />
+    <MESSAGE value="images endpoint with get and post method" />
+    <option name="LAST_COMMIT_MESSAGE" value="images endpoint with get and post method" />
   </component>
 </project>
