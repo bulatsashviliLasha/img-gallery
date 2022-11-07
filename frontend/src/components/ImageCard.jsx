@@ -1,8 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import {Nav} from "react-bootstrap";
 
 const ImageCard = ({ image, deleteImage, saveImage }) => {
-  return (
+  const authorPortfolioURL = image.user?.portfolio_url;
+  const authorName = image.user?.name;
+    return (
     <Card style={{ width: '18rem' }}>
       <Card.Img
         style={{ height: '220px', objectFit: 'cover' }}
@@ -17,6 +20,9 @@ const ImageCard = ({ image, deleteImage, saveImage }) => {
         </Button>{' '}
           {!image.saved && <Button onClick={() => saveImage(image.id)} variant="primary">Save</Button>}
       </Card.Body>
+        <Card.Footer className="text-center text-muted">
+            {authorPortfolioURL && <Nav.Link href={authorPortfolioURL} target="_blank">{authorName}</Nav.Link>}
+        </Card.Footer>
     </Card>
   );
 };
